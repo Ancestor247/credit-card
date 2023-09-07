@@ -1,0 +1,87 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@1,500&family=Poppins:wght@300;400;500;600&family=Roboto:wght@400;500;700&display=swap')
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.Master-card {
+    margin: 0;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #e3f2fd;
+}
+
+.container {
+    position: relative;
+    background-image: url(background.avif);
+    background-size: cover;
+    padding: 25px;
+    border-radius: 28px;
+    max-width: 380px;
+    width: 100%;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+header, .logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    width: 48px;
+    margin-right: 10px;    
+}
+
+header .chip {
+    width: 60px;
+}
+
+h6 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+h5 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0;
+}
+
+h5.number{
+    margin-bottom: 6px;
+    font-size: 18px;
+    justify-content: space-between;
+    align-items: flex-end;
+    letter-spacing: 5px;
+}
+
+.container .card-details{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.card {
+    margin-bottom: 10px;
+}
+
+.valid-date h5{
+    letter-spacing: 2px;
+}
