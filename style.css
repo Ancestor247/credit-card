@@ -68,7 +68,7 @@ h5.number{
     font-size: 18px;
     justify-content: space-between;
     align-items: flex-end;
-    letter-spacing: 5px;
+    letter-spacing: 3px;
 }
 
 .container .card-details{
